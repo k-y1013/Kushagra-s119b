@@ -1,0 +1,38 @@
+body 
+{
+    background-color: yellowgreen;
+}
+
+h1
+{
+    color:rgb(225,38,90);
+    background-color: yellow;
+    font-family: cursive;
+}
+
+#show_sketch
+{
+    float: right;
+}
+
+canvas
+{
+    border:5px solid white;
+    border-radius: 20px;
+     animation-name: example;
+     animation-duration: 4s;
+     margin-top: 50px;
+     animation-iteration-count: infinite;
+}
+
+@keyframes example 
+{
+    from{box-shadow:1px 1px 38px red};
+    to{box-shadow:1px 1px 38px deeppink};
+}
+
+p
+{
+    padding-top:  10px;
+    font-size: 25px;
+}
